@@ -43,3 +43,5 @@ next-env.d.ts
 papers/*
 !papers/.gitkeep
 *.tsbuildinfo
+# Local dev DB bootstrap (regenerated from schema.sql + preamble)
+data/schema.local.sql
