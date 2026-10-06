@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "academy": "Astra Academy",
+  "trial_name": "The NET Trial",
+  "user_title": "The Challenger",
+  "mentors": [
+    {
+      "code": "kael",
+      "name": "Kael Varen",
+      "title": "The Lazy Strategist",
+      "role": "Strategy Mentor",
+      "accent_hex": "#C9A227",
+      "avatar_key": "kael",
+      "domain": "strategy",
+      "core_question": "What's the smartest move?",
+      "trigger_domains": ["dashboard_open", "priority_shift", "effort_waste_detected"],
+      "cooldown_minutes": 1440,
+      "priority_weight": 7,
+      "tone_rules": [
+        "Speak in short, deliberate sentences.",
+        "Never raise urgency. State facts and let the number do the work.",
+        "Ask one question before recommending anything.",
+        "Favor precision over warmth; warmth leaks through in brevity, not volume."
+      ],
+      "never_says": [
+        "Study harder.",
+        "You should feel bad.",
+        "Everything is important."
+      ],
+      "signature_line": "A clear strategy always saves more energy."
+    },
+    {
+      "code": "nox",
+      "name": "Nox Vale",
+      "title": "The Deductive Observer",
+      "role": "Logic + Error Analysis",
+      "accent_hex": "#7B6DB5",
+      "avatar_key": "nox",
+      "domain": "deduction",
+      "core_question": "Why were you wrong?",
+      "trigger_domains": ["wrong_answer", "guess_detected", "pattern_wrong"],
+      "cooldown_minutes": 60,
+      "priority_weight": 8,
+      "tone_rules": [
+        "Observe first, conclude second. Never deliver the answer.",
+        "Reflect the user's own elimination back to them.",
+        "Surface the misconception, not the correction.",
+        "Dry humor is permitted. Condescension is not."
+      ],
+      "never_says": [
+        "The answer is X.",
+        "Just memorize it.",
+        "Don't worry about why."
+      ],
+      "signature_line": "Every mistake leaves evidence."
+    },
+    {
+      "code": "raven",
+      "name": "Raven Kai",
+      "title": "The Ruthless Competitor",
+      "role": "Performance Mentor",
+      "accent_hex": "#C9304A",
+      "avatar_key": "raven",
+      "domain": "performance",
+      "core_question": "How far are you from the target?",
+      "trigger_domains": ["mock_completed", "streak_hit", "gap_to_target", "new_high"],
+      "cooldown_minutes": 360,
+      "priority_weight": 6,
+      "tone_rules": [
+        "Always cite a number. Never speak in generalities.",
+        "State the gap without editorializing it.",
+        "Treat targets as problems to solve, not verdicts on the user.",
+        "No emotional softening. Precision is the respect."
+      ],
+      "never_says": [
+        "It's okay.",
+        "You did your best.",
+        "Don't worry about the score."
+      ],
+      "signature_line": "Intentions don't count. Results do."
+    },
+    {
+      "code": "sena",
+      "name": "Sena Kryn",
+      "title": "The Scientific Explorer",
+      "role": "Concept Teacher",
+      "accent_hex": "#2DD4BF",
+      "avatar_key": "sena",
+      "domain": "concepts",
+      "core_question": "Do you actually understand it?",
+      "trigger_domains": ["hard_topic_open", "concept_request", "repeated_failure"],
+      "cooldown_minutes": 30,
+      "priority_weight": 5,
+      "tone_rules": [
+        "Break large ideas into the problem they were invented to solve.",
+        "Get visibly excited when a concept clicks.",
+        "Never tell the user to memorize.",
+        "Move from mechanism to formula, never formula first."
+      ],
+      "never_says": [
+        "Just memorize it.",
+        "It's too complicated to explain.",
+        "Trust me on this one."
+      ],
+      "signature_line": "If you understand the mechanism, you don't need to memorize the surface."
+    },
+    {
+      "code": "eren",
+      "name": "Eren Voss",
+      "title": "The Discipline Mentor",
+      "role": "Consistency",
+      "accent_hex": "#5B7C99",
+      "avatar_key": "eren",
+      "domain": "discipline",
+      "core_question": "Did you show up?",
+      "trigger_domains": ["missed_day", "missed_three_days", "recovery_session"],
+      "cooldown_minutes": 720,
+      "priority_weight": 9,
+      "tone_rules": [
+        "Never shame. Never ask why.",
+        "Offer the smallest possible next action.",
+        "Frame consistency as a schedule problem, not a willpower problem.",
+        "The tone is cold but the intent is protection."
+      ],
+      "never_says": [
+        "You should feel bad.",
+        "Why didn't you study?",
+        "You've fallen behind."
+      ],
+      "signature_line": "You don't need three hours. You need to begin."
+    },
+    {
+      "code": "mira",
+      "name": "Mira Solen",
+      "title": "The Sensei",
+      "role": "General Mentor",
+      "accent_hex": "#E8A55C",
+      "avatar_key": "mira",
+      "domain": "mentorship",
+      "core_question": "How do we keep moving?",
+      "trigger_domains": ["score_drop", "first_mock", "burnout_signal", "milestone"],
+      "cooldown_minutes": 1440,
+      "priority_weight": 10,
+      "tone_rules": [
+        "Reframe failure as information, never as identity.",
+        "Compare the user to their own past attempt, not to others.",
+        "Warmth is real. It is never false comfort.",
+        "Never praise a bad result, but never let it define the user."
+      ],
+      "never_says": [
+        "You're doing great! (when they aren't)",
+        "Everything will be fine.",
+        "Just stay positive."
+      ],
+      "signature_line": "A bad score is information. It isn't your identity."
+    }
+  ],
+  "realm_states": {
+    "unstable":    { "label": "UNSTABLE",    "min_mastery": 0,  "max_mastery": 49,  "hex": "#EF4444" },
+    "holding":     { "label": "HOLDING",     "min_mastery": 50, "max_mastery": 74,  "hex": "#F59E0B" },
+    "stabilized":  { "label": "STABILIZED",  "min_mastery": 75, "max_mastery": 89,  "hex": "#3B82F6" },
+    "conquered":   { "label": "CONQUERED",   "min_mastery": 90, "max_mastery": 100, "hex": "#22C55E" }
+  },
+  "ranks": [
+    { "code": "initiate",       "name": "Initiate",            "min_score": 0,   "max_score": 79  },
+    { "code": "aspirant",       "name": "Aspirant",            "min_score": 80,  "max_score": 109 },
+    { "code": "challenger",     "name": "Challenger",          "min_score": 110, "max_score": 139 },
+    { "code": "strategist",     "name": "Strategist",          "min_score": 140, "max_score": 169 },
+    { "code": "cognitive",      "name": "Cognitive Strategist","min_score": 170, "max_score": 999 }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "version": "1.0.0",
+  "frozen_at": "2026-10-06",
+  "subjects": [
+    {
+      "code": "P1",
+      "name": "Paper I",
+      "realm": "foundation",
+      "units": [
+        {
+          "code": "P1-U1",
+          "name": "Teaching Aptitude",
+          "topics": [
+            { "code": "P1-U1-T1", "name": "Teaching: Concept, Objectives, Levels", "subtopics": ["Nature and Objectives", "Levels of Teaching", "Characteristics and Basic Requirements"] },
+            { "code": "P1-U1-T2", "name": "Learner's Characteristics", "subtopics": ["Adolescent Learners", "Adult Learners", "Individual Differences"] },
+            { "code": "P1-U1-T3", "name": "Factors Affecting Teaching", "subtopics": ["Teacher", "Learner", "Support Material", "Environment", "Institution"] },
+            { "code": "P1-U1-T4", "name": "Methods of Teaching", "subtopics": ["Teacher-Centered", "Learner-Centered", "Modern Methods"] },
+            { "code": "P1-U1-T5", "name": "Teaching Aids", "subtopics": ["Traditional", "Modern", "Mass Media"] },
+            { "code": "P1-U1-T6", "name": "Evaluation Systems", "subtopics": ["Formative", "Summative", "CBCS", "Choice-Based Credit System"] }
+          ]
+        },
+        {
+          "code": "P1-U2",
+          "name": "Research Aptitude",
+          "topics": [
+            { "code": "P1-U2-T1", "name": "Research: Meaning, Types, Characteristics", "subtopics": ["Meaning", "Types", "Characteristics", "Positivism and Post-Positivistic Approach"] },
+            { "code": "P1-U2-T2", "name": "Methods of Research", "subtopics": ["Experimental", "Descriptive", "Historical", "Qualitative and Quantitative"] },
+            { "code": "P1-U2-T3", "name": "Steps of Research", "subtopics": ["Problem Identification", "Hypothesis", "Design", "Data Collection", "Analysis", "Report"] },
+            { "code": "P1-U2-T4", "name": "Thesis and Article Writing", "subtopics": ["Format and Style", "Reference Styles"] },
+            { "code": "P1-U2-T5", "name": "Application of ICT in Research", "subtopics": ["Tools and Databases"] },
+            { "code": "P1-U2-T6", "name": "Research Ethics", "subtopics": ["Ethical Issues", "Plagiarism", "Citation"] }
+          ]
+        },
+        {
+          "code": "P1-U3",
+          "name": "Comprehension",
+          "topics": [
+            { "code": "P1-U3-T1", "name": "Reading Comprehension", "subtopics": ["Passage-Based", "Inference", "Vocabulary in Context"] }
+          ]
+        },
+        {
+          "code": "P1-U4",
+          "name": "Communication",
+          "topics": [
+            { "code": "P1-U4-T1", "name": "Communication: Meaning, Types, Characteristics", "subtopics": ["Verbal", "Non-Verbal", "Interpersonal", "Mass Communication"] },
+            { "code": "P1-U4-T2", "name": "Effective Communication", "subtopics": ["Barriers", "Classroom Communication", "Strategies"] }
+          ]
+        },
+        {
+          "code": "P1-U5",
+          "name": "Mathematical Reasoning and Aptitude",
+          "topics": [
+            { "code": "P1-U5-T1", "name": "Types of Reasoning", "subtopics": ["Number Series", "Letter Series", "Codes", "Relationships", "Classification"] },
+            { "code": "P1-U5-T2", "name": "Number Series, Letter Series, Codes", "subtopics": [] },
+            { "code": "P1-U5-T3", "name": "Relationships and Classification", "subtopics": [] }
+          ]
+        },
+        {
+          "code": "P1-U6",
+          "name": "Logical Reasoning",
+          "topics": [
+            { "code": "P1-U6-T1", "name": "Understanding the Structure of Arguments", "subtopics": ["Premises", "Conclusions", "Validity"] },
+            { "code": "P1-U6-T2", "name": "Evaluating and Distinguishing Deductive and Inductive Reasoning", "subtopics": [] },
+            { "code": "P1-U6-T3", "name": "Analogy, Venn Diagrams, Indian Logic", "subtopics": ["Analogy", "Venn Diagrams", "Indian Logic: Means of Knowledge", "Pramanas"] }
+          ]
+        },
+        {
+          "code": "P1-U7",
+          "name": "Data Interpretation",
+          "topics": [
+            { "code": "P1-U7-T1", "name": "Sources, Acquisition and Classification of Data", "subtopics": [] },
+            { "code": "P1-U7-T2", "name": "Quantitative and Qualitative Data", "subtopics": [] },
+            { "code": "P1-U7-T3", "name": "Graphical Representation and Mapping of Data", "subtopics": ["Bar", "Pie", "Line", "Table"] },
+            { "code": "P1-U7-T4", "name": "Data Interpretation", "subtopics": ["Ratios", "Percentages", "Averages"] }
+          ]
+        },
+        {
+          "code": "P1-U8",
+          "name": "Information and Communication Technology (ICT)",
+          "topics": [
+            { "code": "P1-U8-T1", "name": "ICT: General Abbreviations and Terminology", "subtopics": [] },
+            { "code": "P1-U8-T2", "name": "Basics of Internet and Intranet", "subtopics": [] },
+            { "code": "P1-U8-T3", "name": "ICT and Governance", "subtopics": ["E-Governance", "Digital India"] },
+            { "code": "P1-U8-T4", "name": "Computer Abbreviations and Terminology", "subtopics": [] }
+          ]
+        },
+        {
+          "code": "P1-U9",
+          "name": "People, Development and Environment",
+          "topics": [
+            { "code": "P1-U9-T1", "name": "Development and Environment", "subtopics": ["Sustainable Development", "Millennium Goals"] },
+            { "code": "P1-U9-T2", "name": "Human and Environment Interaction", "subtopics": ["Anthropogenic Impact", "Pollution"] },
+            { "code": "P1-U9-T3", "name": "Environmental Issues and Mitigation", "subtopics": ["Climate Change", "Biodiversity"] },
+            { "code": "P1-U9-T4", "name": "Environmental Legislation", "subtopics": ["Acts", "Policies", "International Agreements"] }
+          ]
+        },
+        {
+          "code": "P1-U10",
+          "name": "Higher Education System",
+          "topics": [
+            { "code": "P1-U10-T1", "name": "Higher Education in India", "subtopics": ["Evolution", "Structure", "Regulatory Bodies"] },
+            { "code": "P1-U10-T2", "name": "Policies, Governance and Administration", "subtopics": ["NEP", "UGC", "AICTE", "NAAC"] },
+            { "code": "P1-U10-T3", "name": "Institutions of Higher Education", "subtopics": ["Central", "State", "Private", "Deemed"] }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "P2-CS",
+      "name": "Paper II — Computer Science",
+      "realm": "ten_realms",
+      "units": [
+        {
+          "code": "P2-U1",
+          "name": "Discrete Structures and Optimization",
+          "topics": [
+            { "code": "P2-U1-T1", "name": "Sets, Relations, Functions", "subtopics": ["Set Operations", "Relation Properties", "Function Types"] },
+            { "code": "P2-U1-T2", "name": "Propositional and First Order Logic", "subtopics": ["Propositional Logic", "First Order Logic", "Validity"] },
+            { "code": "P2-U1-T3", "name": "Groups, Partial Order, Lattices", "subtopics": ["Groups", "Partial Orders", "Lattices", "Boolean Algebra"] },
+            { "code": "P2-U1-T4", "name": "Combinatorics", "subtopics": ["Permutations", "Combinations", "Pigeonhole", "Inclusion-Exclusion"] },
+            { "code": "P2-U1-T5", "name": "Graph Theory", "subtopics": ["Connectivity", "Coloring", "Trees", "Matchings"] },
+            { "code": "P2-U1-T6", "name": "Optimization", "subtopics": ["Linear Programming", "Simplex", "Integer Programming"] }
+          ]
+        },
+        {
+          "code": "P2-U2",
+          "name": "Computer System Architecture",
+          "topics": [
+            { "code": "P2-U2-T1", "name": "Digital Logic", "subtopics": ["Boolean Algebra", "K-Maps", "Combinational Circuits", "Sequential Circuits"] },
+            { "code": "P2-U2-T2", "name": "CPU, Control Unit, Addressing", "subtopics": ["Instruction Formats", "Addressing Modes", "Control Unit Design"] },
+            { "code": "P2-U2-T3", "name": "Memory Hierarchy", "subtopics": ["Cache", "Main Memory", "Secondary Storage", "Virtual Memory"] },
+            { "code": "P2-U2-T4", "name": "I/O and Interrupts", "subtopics": ["I/O Techniques", "Interrupts", "DMA"] },
+            { "code": "P2-U2-T5", "name": "Pipelining", "subtopics": ["Pipeline Hazards", "Superscalar"] }
+          ]
+        },
+        {
+          "code": "P2-U3",
+          "name": "Programming Languages and Computer Graphics",
+          "topics": [
+            { "code": "P2-U3-T1", "name": "Programming in C and C++", "subtopics": ["Pointers", "Structures", "Recursion", "OOP Concepts"] },
+            { "code": "P2-U3-T2", "name": "Programming Language Paradigms", "subtopics": ["Imperative", "Object-Oriented", "Functional", "Logic"] },
+            { "code": "P2-U3-T3", "name": "Computer Graphics", "subtopics": ["Line Drawing", "Clipping", "Transformations", "3D Graphics"] }
+          ]
+        },
+        {
+          "code": "P2-U4",
+          "name": "Data Structures and Algorithms",
+          "topics": [
+            { "code": "P2-U4-T1", "name": "Arrays, Stacks, Queues, Linked Lists", "subtopics": ["Arrays", "Stacks", "Queues", "Linked Lists"] },
+            { "code": "P2-U4-T2", "name": "Trees and Graphs", "subtopics": ["Binary Trees", "BST", "Heaps", "Graph Representations", "Traversals"] },
+            { "code": "P2-U4-T3", "name": "Sorting and Searching", "subtopics": ["Bubble", "Merge", "Quick", "Heap Sort", "Binary Search"] },
+            { "code": "P2-U4-T4", "name": "Algorithm Design Techniques", "subtopics": ["Greedy", "Divide and Conquer", "Dynamic Programming", "Backtracking", "Branch and Bound"] },
+            { "code": "P2-U4-T5", "name": "Complexity Analysis", "subtopics": ["Big-O", "Recurrences", "Master Theorem", "NP-Completeness"] }
+          ]
+        },
+        {
+          "code": "P2-U5",
+          "name": "Operating Systems",
+          "topics": [
+            { "code": "P2-U5-T1", "name": "Processes and Threads", "subtopics": ["Process States", "PCB", "Context Switching", "Threads"] },
+            { "code": "P2-U5-T2", "name": "CPU Scheduling", "subtopics": ["FCFS", "SJF", "Round Robin", "Priority", "Multilevel Queue"] },
+            { "code": "P2-U5-T3", "name": "Synchronization", "subtopics": ["Critical Section", "Semaphores", "Monitors", "Classical Problems"] },
+            { "code": "P2-U5-T4", "name": "Deadlocks", "subtopics": ["Necessary Conditions", "Detection", "Prevention", "Avoidance", "Banker's Algorithm"] },
+            { "code": "P2-U5-T5", "name": "Memory Management", "subtopics": ["Paging", "Segmentation", "Page Replacement", "Thrashing", "Virtual Memory"] },
+            { "code": "P2-U5-T6", "name": "File Systems and I/O", "subtopics": ["File Allocation", "Directory Structure", "Disk Scheduling", "RAID"] }
+          ]
+        },
+        {
+          "code": "P2-U6",
+          "name": "Databases",
+          "topics": [
+            { "code": "P2-U6-T1", "name": "ER Model and Relational Model", "subtopics": ["ER Diagrams", "Relational Algebra", "Tuple Calculus"] },
+            { "code": "P2-U6-T2", "name": "SQL and Integrity Constraints", "subtopics": ["SQL Queries", "Joins", "Constraints", "Triggers"] },
+            { "code": "P2-U6-T3", "name": "Normalization", "subtopics": ["Functional Dependencies", "1NF-BCNF", "Lossless Decomposition", "Multivalued Dependencies"] },
+            { "code": "P2-U6-T4", "name": "File Organization and Indexing", "subtopics": ["B-Trees", "B+ Trees", "Hashing", "Indexing"] },
+            { "code": "P2-U6-T5", "name": "Transactions and Concurrency", "subtopics": ["ACID", "Serializability", "Locking", "Deadlock in DBMS", "Recovery"] }
+          ]
+        },
+        {
+          "code": "P2-U7",
+          "name": "Computer Networks",
+          "topics": [
+            { "code": "P2-U7-T1", "name": "Layering and Protocols", "subtopics": ["OSI", "TCP/IP", "Encapsulation"] },
+            { "code": "P2-U7-T2", "name": "Data Link Layer", "subtopics": ["Framing", "Error Detection", "MAC", "Ethernet", "Sliding Window"] },
+            { "code": "P2-U7-T3", "name": "Routing and IP", "subtopics": ["IPv4", "IPv6", "Subnetting", "Routing Algorithms", "RIP", "OSPF", "BGP"] },
+            { "code": "P2-U7-T4", "name": "Transport Layer", "subtopics": ["TCP", "UDP", "Flow Control", "Congestion Control"] },
+            { "code": "P2-U7-T5", "name": "Application Layer", "subtopics": ["DNS", "HTTP", "SMTP", "FTP", "DHCP"] },
+            { "code": "P2-U7-T6", "name": "Network Security", "subtopics": ["Cryptography Basics", "SSL/TLS", "Firewalls"] }
+          ]
+        },
+        {
+          "code": "P2-U8",
+          "name": "Theory of Computation and Compilers",
+          "topics": [
+            { "code": "P2-U8-T1", "name": "Finite Automata", "subtopics": ["DFA", "NFA", "Minimization", "Regular Expressions"] },
+            { "code": "P2-U8-T2", "name": "Formal Languages and Grammars", "subtopics": ["Chomsky Hierarchy", "CFG", "Ambiguity", "Normal Forms"] },
+            { "code": "P2-U8-T3", "name": "Pushdown Automata and Turing Machines", "subtopics": ["PDA", "Turing Machines", "Decidability", "Halting Problem"] },
+            { "code": "P2-U8-T4", "name": "Compiler Design", "subtopics": ["Lexical Analysis", "Parsing (LL, LR)", "Syntax-Directed Translation", "Code Generation", "Optimization"] }
+          ]
+        },
+        {
+          "code": "P2-U9",
+          "name": "Artificial Intelligence",
+          "topics": [
+            { "code": "P2-U9-T1", "name": "Search", "subtopics": ["BFS", "DFS", "A*", "Heuristics", "Minimax", "Alpha-Beta"] },
+            { "code": "P2-U9-T2", "name": "Knowledge Representation", "subtopics": ["Propositional Logic", "First Order Logic", "Semantic Nets", "Frames"] },
+            { "code": "P2-U9-T3", "name": "Reasoning under Uncertainty", "subtopics": ["Bayesian Networks", "HMM"] },
+            { "code": "P2-U9-T4", "name": "Machine Learning Basics", "subtopics": ["Supervised", "Unsupervised", "Neural Networks"] }
+          ]
+        },
+        {
+          "code": "P2-U10",
+          "name": "Data Science, AI and Emerging Tech",
+          "topics": [
+            { "code": "P2-U10-T1", "name": "Data Science Basics", "subtopics": ["Data Preprocessing", "Visualization"] },
+            { "code": "P2-U10-T2", "name": "Artificial Neural Networks", "subtopics": ["Perceptron", "Backpropagation", "CNN", "RNN"] },
+            { "code": "P2-U10-T3", "name": "Emerging Technologies", "subtopics": ["Cloud", "IoT", "Blockchain"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

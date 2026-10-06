@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "types": [
+    { "code": "mcq_factual",       "name": "Factual MCQ",              "description": "Direct recall of a fact, definition, or term." },
+    { "code": "mcq_conceptual",    "name": "Conceptual MCQ",           "description": "Tests understanding of a concept, not recall." },
+    { "code": "mcq_calculation",   "name": "Calculation MCQ",          "description": "Requires numeric computation." },
+    { "code": "assertion_reason",  "name": "Assertion-Reason",         "description": "Two statements A and R with the classic four options." },
+    { "code": "match_following",   "name": "Match the Following",      "description": "Two lists to be matched." },
+    { "code": "chronological",     "name": "Chronological / Ordering", "description": "Arrange in correct order." },
+    { "code": "true_false",        "name": "True/False",               "description": "Binary correctness." },
+    { "code": "statement_based",   "name": "Statement-Based",          "description": "Which of the following statement(s) is/are correct." },
+    { "code": "diagram_based",     "name": "Diagram-Based",            "description": "Question depends on a figure or graph." },
+    { "code": "code_output",       "name": "Code Output",              "description": "Predict output of given code." },
+    { "code": "code_error",        "name": "Code Error Identification","description": "Find the bug/error in code." },
+    { "code": "unknown",           "name": "Unclassified",             "description": "Not yet classified during review." }
+  ]
+}
