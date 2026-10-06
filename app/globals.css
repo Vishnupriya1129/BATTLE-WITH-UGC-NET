@@ -1,26 +1,181 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* =====================================================================
+   BATTLE WITH UGC-NET — Design Tokens
+   Version: 1.0.0
+   Palette: Black base · Navy surfaces · Burgundy primary
+   Convention: Always use utility classes (bg-primary, text-ink, etc.)
+   Only use inline var(--color-*) when the value is dynamic at runtime.
+   ===================================================================== */
+
+@theme {
+  /* ---- Base surfaces ---- */
+  --color-bg-base: #0A0A0F;
+  --color-bg-surface: #0F1626;
+  --color-bg-surface-2: #16203A;
+  --color-bg-surface-3: #1E2A47;
+  --color-border-subtle: #1E2A47;
+  --color-border-strong: #2C3E63;
+
+  /* ---- Primary (Battle) — Burgundy ---- */
+  --color-primary: #8B1A2B;
+  --color-primary-hover: #A82340;
+  --color-primary-glow: #D9304F;
+  --color-primary-soft: #3D1420;
+
+  /* ---- Semantic ---- */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #3B82F6;
+
+  /* ---- Paper rings ---- */
+  --color-paper-1: #D9304F;
+  --color-paper-2: #5B9BD5;
+
+  /* ---- Text (ink scale) ---- */
+  --color-ink: #F1F5F9;
+  --color-ink-muted: #94A3B8;
+  --color-ink-dim: #64748B;
+
+  /* ---- Mentor accents (only in mentor cards) ---- */
+  --color-mentor-kael: #C9A227;
+  --color-mentor-nox: #7B6DB5;
+  --color-mentor-raven: #C9304A;
+  --color-mentor-sena: #2DD4BF;
+  --color-mentor-eren: #5B7C99;
+  --color-mentor-mira: #E8A55C;
+
+  /* ---- Realm states ---- */
+  --color-realm-unstable: #EF4444;
+  --color-realm-holding: #F59E0B;
+  --color-realm-stabilized: #3B82F6;
+  --color-realm-conquered: #22C55E;
+
+  /* ---- Fonts ---- */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* =====================================================================
+   Base
+   ===================================================================== */
+html,
+body {
+  background: var(--color-bg-base);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100dvh;
+}
+
+/* =====================================================================
+   Selection & focus
+   ===================================================================== */
+::selection {
+  background: var(--color-primary-glow);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary-glow);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* =====================================================================
+   Scrollbar — subtle, matches theme
+   ===================================================================== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* =====================================================================
+   Utility classes
+   ===================================================================== */
+
+/* Card base — used everywhere */
+.bwu-card {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 12px;
+}
+
+.bwu-card-elevated {
+  background: var(--color-bg-surface-2);
+  border: 1px solid var(--color-border-strong);
+  border-radius: 12px;
+}
+
+/* Section heading */
+.bwu-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+}
+
+/* Mono numbers — timers, scores, question counters */
+.bwu-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Primary button */
+.bwu-btn-primary {
+  background: var(--color-primary);
+  color: var(--color-ink);
+  padding: 0.625rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background 150ms ease;
+  border: none;
+  cursor: pointer;
+}
+
+.bwu-btn-primary:hover {
+  background: var(--color-primary-hover);
+}
+
+/* Ghost button */
+.bwu-btn-ghost {
+  background: transparent;
+  color: var(--color-ink-muted);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: color 150ms ease, background 150ms ease;
+  border: 1px solid var(--color-border-subtle);
+  cursor: pointer;
+}
+
+.bwu-btn-ghost:hover {
+  color: var(--color-ink);
+  background: var(--color-bg-surface-2);
 }
